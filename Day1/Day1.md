@@ -9,12 +9,13 @@ Today we learn about Risc v architecture ,conversion from software to hardware a
 - [From Software to Hardware](#from-software-to-hardware)
 - [Labs on Risc v](#labs-on-risc-v)
   - [Lab 1](#lab-1)
-  - [Lab 2](#lab-1)
-  - [Lab 3](#lab-1)
--[Bit Number System](#bit-number-system)
-  -[Unsigned Numbers](#unsigned-numbers)
-  -[Signed Numbers](#signed-numbers)
--[Lab on Signed and Unsigned numbers](#lab-on-signed-and-unsigned-numbers)
+  - [Lab 2](#lab-2)
+  - [Lab 3](#lab-3)
+- [Bit Number System](#bit-number-system)
+  - [Unsigned Numbers](#unsigned-numbers)
+  - [Signed Numbers](#signed-numbers)
+- [Lab on Signed and Unsigned numbers](#lab-on-signed-and-unsigned-numbers)
+
 ---
 
 ## 1. Introduction to RISC-V
@@ -58,8 +59,9 @@ The execution flow discussed in the lecture is:
 ```text
 Applications  >  Operating System   >  Compiler  >  Assembly Language  >  Instruction Set Architecture (ISA)  >  Hardware
 ```
+---
 
-image
+<img width="1322" height="740" alt="software to hardware" src="https://github.com/user-attachments/assets/2cdc7f56-fedf-419b-8dcb-43d628bf9383" />
 
 
 ### Applications
@@ -131,11 +133,13 @@ we here compute a C program for sum 1 to N:
 
 The program:
 
-image
+<img width="1202" height="427" alt="sum1ton pgm" src="https://github.com/user-attachments/assets/c14c0bbd-1c76-4df8-b8d1-54d4a46981dc" />
 
 The output:
 
-image
+```shell
+sum  of numbers from 1 to 5 is 15
+```
 
 
 -Lab 2
@@ -150,7 +154,7 @@ riscv64-unknown-elf-gcc
 
 The output:
 
-
+<img width="1207" height="702" alt="gcc compiler" src="https://github.com/user-attachments/assets/ce5c4690-8ba5-40d2-b687-e2fdefb83bfc" />
 
  - Lab 3
 
@@ -187,7 +191,6 @@ handles unsigned numbers through dedicated instructions that interpret these bit
 **Signed Numbers**
 RISC-V represents signed numbers using two's complement representation in integer registers.
 
-
 ---
 
 ## Lab on Signed and Unsigned numbers:
@@ -197,18 +200,20 @@ Sometimes overflow occurs in signed and unsigned numbers . We correct it through
 # Overflow in Unsigned Numbers
 
 Overflow occurs when arithmetic result exceeds representable range.
-image
+
+<img width="1226" height="417" alt="unsigned overflow" src="https://github.com/user-attachments/assets/1bc2e3fd-c8a7-49b8-8e95-3c27c25b4995" />
 ---
 
 # Overflow in Signed Numbers
 
 Signed overflow occurs when result exceeds signed representable range.
-image
+
+<img width="1222" height="547" alt="signed overflow" src="https://github.com/user-attachments/assets/6e92a619-4232-4310-ae6d-016d6f578343" />
 ---
 
 Corrected Version
 
-image
 
----<img width="1322" height="740" alt="software to hardware" src="https://github.com/user-attachments/assets/2cdc7f56-fedf-419b-8dcb-43d628bf9383" />
+<img width="1207" height="167" alt="Corected version" src="https://github.com/user-attachments/assets/52ebb6fc-ccac-426d-806b-d3b0baaf0b43" />
+
 

@@ -11,4 +11,14 @@ That is:
 - load/store memory operations
 - timing-abstract hardware design
 
-  and many more...
+---
+
+## Tools Used
+
+- GNU Compiler Toolchain
+- Spike Simulator
+- TL-Verilog
+- Makerchip IDE
+- Icarus Verilog
+
+---

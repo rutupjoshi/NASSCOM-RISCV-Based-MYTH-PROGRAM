@@ -103,11 +103,11 @@ which is the next sequential instruction after the load.
   ### Lab - 1:
   
   This lab upgrades the RISC-V CPU from an artificially spaced 3-cycle execution model into a near continuous pipelined processor.
+  
   The result:
   
   <img width="677" height="477" alt="op11" src="https://github.com/user-attachments/assets/732a22f2-b7e6-47c8-bdfe-6332c4b36ce6" />
   
-<img width="650" height="407" alt="op1" src="https://github.com/user-attachments/assets/73056609-1aa5-42da-ad8e-5847a593f2d6" />
 
 
 ---

@@ -153,7 +153,6 @@ The lecture demonstrates that upon selecting a signal, the signal becomes highli
 - in circuit diagram
 - in code view
 
-This provides an interactive debug flow.
 ---
 
 ## 3. Pipeline Logic

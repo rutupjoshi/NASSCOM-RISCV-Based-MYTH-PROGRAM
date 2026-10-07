@@ -6,7 +6,7 @@ On the fifth day we learn about pipelining the CPU, control flow hazard and read
 ## Contents
 
 - [1.Introduction to control flow hazard and read after write hazard](#1-introduction-to-control-flow-hazard-and-read-after-write-hazard)
-- [2.Introduction_To_Load_Store_Instructions_And_Lab_To_Redirect_Loads](#2-introduction-to-load-store-instructions-and-lab-to-redirect-loads)
+- [2.Introduction_To_Load_Store_Instructions](#2-introduction-to-load-store-instructions)
 - [3. Labs](#6-labs)
   - [Lab 1](#lab-1)
   - [Lab 2](#lab-2)
@@ -65,7 +65,7 @@ The valid pulse effectively behaves like periodic pipeline enable generator. We 
  
 ---
 
-## Introduction_To_Load_Store_Instructions_And_Lab_To_Redirect_Loads
+## Introduction_To_Load_Store_Instructions
 
 Load-store architecture, meaning that main memory can only be accessed using dedicated load and store instructions. All arithmetic, logical, and shift operations in RISC-V operate strictly on CPU registers rather than directly on memory addresses.
 
@@ -118,7 +118,8 @@ This lab completes the remaining instruction decode logic for the RV32I base ins
 
 The result:
 
-<img width="640" height="510" alt="lab 2" src="https://github.com/user-attachments/assets/8bf7b262-ad4a-480a-9ce1-eda3646a10ce" />
+<img width="622" height="527" alt="lab 22" src="https://github.com/user-attachments/assets/7c5ab67f-a8ab-4015-8f0e-555aa7b778cf" />
+
 
 
 ---

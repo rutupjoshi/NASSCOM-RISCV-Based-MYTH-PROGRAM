@@ -177,7 +177,8 @@ The complention:
 
 The lab to create a simple testbench:
 
-<img width="695" height="397" alt="testbencj" src="https://github.com/user-attachments/assets/785e3b44-2a90-41a4-b9aa-d35f9e91090a" />
+<img width="687" height="432" alt="test" src="https://github.com/user-attachments/assets/3b46a168-09df-4166-baab-3d47cc97e823" />
+
 
 
 ---

@@ -29,15 +29,15 @@ An instruction passes through five conceptual stages sequentially inside the sam
 
 1. Fetch: The address in the PC points to the Instruction Memory, retrieving the 32-bit instruction while simultaneously computing PC + 4.
 
-3. Decode: The instruction bits are parsed. Source registers (rs1, rs2) pull data from the Register File, and the Immediate Generator prepares offset values.
-5. Execute (ALU):
+2. Decode: The instruction bits are parsed. Source registers (rs1, rs2) pull data from the Register File, and the Immediate Generator prepares offset values.
+3. Execute (ALU):
 	• For R-type instructions, the ALU operates on rs1 and rs2.
-	• For I-type (arithmetic/loads) and S-type (stores), the ALU adds rs1 and the sign-extended immediate to calculate memory or target addresses.
+	• For I-type (arithmetic/loads) and S-type (stores), the ALU adds rs1 and the sign-extended immediate to calculate memory or target  addresses.
 	• For B-type (branches), the ALU compares register values and evaluates branch conditions.
 
-7. Memory Access: Data Memory is read (for lw) or written (for sw). Other instruction types bypass this stage.
-8. 
-9. Write-Back: The final result (from the ALU or Data Memory) is written back to the destination register (rd) in the Register File.
+4. Memory Access: Data Memory is read (for lw) or written (for sw). Other instruction types bypass this stage.
+
+5. Write-Back: The final result (from the ALU or Data Memory) is written back to the destination register (rd) in the Register File.
 
     
 <img width="1017" height="585" alt="cpu" src="https://github.com/user-attachments/assets/3a6b2f95-a8d1-47bd-aa63-b6c96bcec6e8" />
